@@ -1,0 +1,12 @@
+﻿.box{
+height:438px;
+width:358px;
+border:2px solid black;
+float:right;
+background:#000000;
+    font-weight: 400;
+    font-family: "Comic Sans MS";
+    font-size: medium;
+    color: #FFFFFF;
+    margin-left: 0px;
+}

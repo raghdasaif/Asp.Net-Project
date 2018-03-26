@@ -1,0 +1,6 @@
+C:\Users\Arslan\Desktop\FinalDBproject\FinalDBproject\bin\FinalDBproject.dll.config
+C:\Users\Arslan\Desktop\FinalDBproject\FinalDBproject\bin\FinalDBproject.dll
+C:\Users\Arslan\Desktop\FinalDBproject\FinalDBproject\bin\FinalDBproject.pdb
+C:\Users\Arslan\Desktop\FinalDBproject\FinalDBproject\obj\Debug\FinalDBproject.dll
+C:\Users\Arslan\Desktop\FinalDBproject\FinalDBproject\obj\Debug\FinalDBproject.pdb
+C:\Users\Arslan\Desktop\FinalDBproject\FinalDBproject\obj\Debug\FinalDBproject.csprojResolveAssemblyReference.cache

@@ -1,0 +1,142 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="FinalDBproject.master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+           <style>
+
+       p2{
+           color : darkgreen;
+       }
+       p{
+           color : white;
+       }
+
+
+       hh1{
+font-size :large;
+            border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  color: green;
+       }
+
+body {
+   background : url("C:\Users\Arslan\Desktop\FinalDBproject\FinalDBproject\Images\mainbackground.jpg");
+        background-color : black;
+    color : white ;
+}
+
+
+</style>
+    
+    <title>test page</title>
+    <link rel="stylesheet"href="stylee.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body >
+
+    <p>
+<%--    <background-image: img src="images/facebook.png" alt="facebook">--%>
+    <form id="form1" runat="server">
+   	<%--<div id="tooplate_wrapper">--%>
+            <div class="box">
+<u> News </u>
+<br> 
+<marquee direction="up">
+
+    <img src="C:\Users\Arslan\Desktop\FinalDBproject\FinalDBproject\Images\ccccccccc.jpg" /> 
+    CONCERT LIVE: featuring Edward Maya
+    <br >
+    <br >
+
+    <img src="C:\Users\Arslan\Desktop\FinalDBproject\FinalDBproject\Images\aaaaaaaa.jpg" /> 
+    LIVE MATCH SCREENING: Real Madrid vs Barcelona
+    <br >
+    <br >
+
+    <img src="C:\Users\Arslan\Desktop\FinalDBproject\FinalDBproject\Images\ddddddd.jpg" /> 
+    31st ANNUAL BOOK FAIR
+    <br >
+    <br >
+                   
+    <img src="C:\Users\Arslan\Desktop\FinalDBproject\FinalDBproject\Images\bbbbbbbbbbbbbbbbbbbbbbbbbb.jpg" /> 
+    AIESEC: youth leadership conference
+    <br >
+    <br >
+
+
+        
+    </br></marquee>
+<br>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+*other news here
+ </br>
+
+</div>
+
+		<br /> <br /> <br /> <br />
+                    <hh1>
+                        <p2 > <a style = " color : darkgrey ; font-size : 25px " href="home.aspx">Home</a> &nbsp 
+                       <a style = " color :darkgrey; font-size : 25px " href="location.aspx" >Contact Us</a> &nbsp       <a style = " color :darkgrey; font-size : 25px " href="Event.aspx" >Create an Event</a> &nbsp   <a style = " color : darkgrey; font-size : 25px " href="deals.aspx" >Deals</a>&nbsp   <a style = " color : darkgrey; font-size : 25px" href="payment.aspx" >Payment Mechanisms</a> &nbsp   <a style = " color : darkgrey; font-size : 25px"  href="loc.aspx" >Locations</a>  &nbsp<a style = " color : darkgrey ; font-size : 25px" href="coverage.aspx" >Coverage</a> &nbsp &nbsp <a style = " color : darkgrey ; font-size : 25px" href="feedback.aspx" >FeedBack</a> &nbsp &nbsp <a style = " color : darkgrey ; font-size : 25px" href="WebForm1.aspx" >Calender</a>&nbsp  &nbsp <a style = " color : darkgrey ; font-size : 25px" href="employee.aspx" >Employee</a>&nbsp &nbsp <a style = " color : darkgrey ; font-size : 25px" href="chatadmin.aspx" >Chat Box Admin</a>           &nbsp &nbsp <a style = " color : darkgrey ; font-size : 25px" href="chatmember.aspx" >Chat Box Member</a>        &nbsp &nbsp <a style = " color : darkgrey ; font-size : 25px" href="WebForm1.aspx" >Calender</a>&nbsp &nbsp <a style = " color : darkgrey ; font-size : 25px" href="WebForm2.aspx" >LogOut</a></p2></hh1>
+        </div>
+
+
+<br /> <br /> <br /> <br /> <br /> 
+
+            <div id="header">
+
+
+
+                <h1>&nbsp;</h1>
+            </div>    
+		
+		</div> <!-- end of sidebar -->  
+     	  <div id="content">
+      <%--<div>--%>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </div>
+
+          </div>
+       
+		</div>
+</div>
+<div id="footer">
+	<div id="social_box">
+		<a href="#"><img src="images/facebook.png" alt="facebook" /></a>
+        <a href="#"><img src="images/flickr.png" alt="flickr" /></a>
+        <a href="#"><img src="images/myspace.png" alt="myspace" /></a>
+        <a href="#"><img src="images/twitter.png" alt="twitter" /></a>
+        <a href="#"><img src="images/youtube.png" alt="youtube" /></a>
+    </div>
+</div>
+
+    </form>
+        </p>
+</body>
+
+
+
+    
+
+</html>
